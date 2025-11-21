@@ -209,14 +209,6 @@ This project is licensed under the **MIT License**.
 
 ---
 
-## 👨‍💻 Author
-**Pragadesh**  
-Frontend Developer  
-GitHub: `@your-username`  
-Email: your-email@example.com  
-
----
-
 ## ⭐ Support
 If you like this project, please **star ⭐ the repository**!
 
