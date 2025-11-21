@@ -1,0 +1,28 @@
+.footer {
+  background: linear-gradient(135deg, #2e7d32, #256629);
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  flex-shrink: 0;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.footer .social-icons {
+  margin-top: 10px;
+}
+
+.footer .social-icons a {
+  color: white;
+  margin: 0 12px;
+  font-size: 1.6rem;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.footer .social-icons a:hover {
+  color: #ffd700;
+  transform: scale(1.2);
+}

@@ -1,0 +1,138 @@
+.orders-container {
+  width: 95%;
+  margin: 30px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.orders-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1b5e20;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.filter-bar {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-bar select {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  background: #f9f9f9;
+  transition: all 0.3s ease;
+}
+
+.filter-bar select:hover {
+  border-color: #2e7d32;
+}
+
+/* Table Styling */
+.orders-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+  font-size: 15px;
+}
+
+.orders-table thead {
+  position: sticky;
+  top: 0;
+  background: #2e7d32;
+  color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.orders-table th {
+  padding: 14px 12px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.orders-table td {
+  padding: 14px 12px;
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.orders-table tr:hover td {
+  background: #f1f8f4;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Status Badges */
+.status {
+  padding: 6px 14px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.status.approved {
+  background: linear-gradient(45deg, #4caf50, #2e7d32);
+  color: white;
+}
+
+.status.ignored {
+  background: linear-gradient(45deg, #e53935, #b71c1c);
+  color: white;
+}
+
+.status.pending {
+  background: linear-gradient(45deg, #ffb300, #f57c00);
+  color: white;
+}
+
+/* Buttons */
+.approve-btn,
+.ignore-btn {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.approve-btn {
+  background: linear-gradient(135deg, #4caf50, #1b5e20);
+  color: white;
+}
+
+.approve-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #66bb6a, #2e7d32);
+}
+
+.ignore-btn {
+  background: linear-gradient(135deg, #e53935, #8e0000);
+  color: white;
+}
+
+.ignore-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #ef5350, #c62828);
+}
+
+

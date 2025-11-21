@@ -1,0 +1,25 @@
+/* Make full-page layout fill viewport */
+/* Make body take full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content area should expand */
+.main-content {
+  flex: 1;
+}
+
+.orders-container {
+  min-height: 68dh;
+}
+
+/* Footer always bottom */
+footer {
+  background-color: #2e7d32; /* green */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
